@@ -41,11 +41,13 @@ The `syncPdPerson()` function performs the following steps:
     "inputKey": "phoneNumber.home"
   }
 ]
-##For Example
+
+## For Example
+
+```text
 fullName          -> name
 emailAdress       -> email
 phoneNumber.home  -> phone
-
 
 ## Edge Cases Handled
 
