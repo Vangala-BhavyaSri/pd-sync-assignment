@@ -37,18 +37,18 @@ The `syncPdPerson()` function performs the following steps:
     "inputKey": "phoneNumber.home"
   }
 ]
-
-
+```
 
 ## Edge Cases
-1. Missing Mapped Input Field
 
-If a mapped input path does not exist or its value is null or undefined, the field is skipped and a warning is logged.
+### 1. Missing Mapped Input Field
 
-2. Missing or Empty Person Name
+If a mapped input path does not exist or its value is `null` or `undefined`, the field is skipped and a warning is logged.
 
-If the field mapped to name is missing or empty, synchronization stops with a validation error because the name is required to search for an existing person.
+### 2. Missing or Empty Person Name
 
-3. Multiple Persons With the Same Name
+If the field mapped to `name` is missing or empty, synchronization stops with a validation error because the name is required to search for an existing person.
+
+### 3. Multiple Persons With the Same Name
 
 If multiple exact matches are found in Pipedrive, the application logs a warning and uses the first matching person to ensure deterministic behavior.
