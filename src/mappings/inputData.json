@@ -1,0 +1,15 @@
+{
+  "fullName": "Jason",
+  "emailAdress": "Jason@email.com",
+  "phoneNumber": {
+    "home": "123-456-7890",
+    "work": "098-765-4321"
+  },
+  "address": {
+    "country": "USA",
+    "street": "123 Main St",
+    "city": "Anytown",
+    "state": "CA",
+    "zip": "12345"
+  }
+}
